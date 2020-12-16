@@ -1,0 +1,24 @@
+@font-face{
+    src: url("../fonts/acadian.ttf");
+    font-family: "acadian";
+}
+
+body{
+    background-color: #222222! important;
+}
+
+#titulo{
+    color: white;
+    font-family: "acadian";
+}
+
+.ajustavel{
+    height: 100%;
+    width: 100%;
+}
+
+.corpo{
+    background-color: #111111;
+    border: 3px solid black;
+}
+
