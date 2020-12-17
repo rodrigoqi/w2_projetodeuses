@@ -15,10 +15,16 @@
 
         //CONSTRUTOR: método que diz como um novo 
         //objeto da classe deve ser construído
-        public function __construct($codigo, $nome, $reino){
+        public function __construct($codigo, $nome, $reino, $elemento, 
+                                        $arma, $descricao, $forca, $foto){
             $this->codigo = $codigo;
             $this->nome = $nome;
             $this->reino = $reino;
+            $this->elemento = $elemento;
+            $this->arma = $arma;
+            $this->descricao = $descricao;
+            $this->forca = $forca;
+            $this->foto = $foto;
         }
 
         //GETTERS E SETTERS
